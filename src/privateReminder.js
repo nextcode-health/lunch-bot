@@ -5,6 +5,8 @@ import { formatForPrivate, parseNames } from './parseNames';
 import { postToSlack } from './postToSlack';
 import { returnSlackNames } from './returnSlackNames';
 
+console.log("running private reminder");
+
 let namesObj = {};
 
 const parseData = (data) => {
